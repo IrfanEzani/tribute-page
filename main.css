@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Lato',sans-serif;
+  height: 100%;
+}
+#main {
+  background: linear-gradient(90deg, #FFCCCC, #CCFFFF);
+  text-align: center;
+  padding: 0.5rem 0;
+  height: 6em;
+}
+h1 {
+  padding-top:0.2rem;
+}
+#img-div {
+  background-color: #000;
+  height: auto;
+}
+
+#image {
+margin: 3em 0em 1.5em 0em;
+width:50%;
+height:auto;
+position: relative;
+left:25%;
+right: 25%;
+border-radius: 5px;
+
+}
+#image-caption {
+  color:white;
+  background-color: black;
+  padding:0.5rem;
+  width:100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.intro {
+  height:auto;
+  background-color: #FFCCCC;
+  text-align: center;
+}
+#about {
+  font-size: 2em;
+  padding:0.5em;
+}
+
+hr {
+  width:50%;
+  margin-left: 25%;
+  border: 0;
+ height: 0;
+ border-top: 1px solid rgba(0, 0, 0, 0.1);
+ border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+p {
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.contributions {
+  padding: 1em;
+  text-align: center;
+  background-color: #CCFFFF;
+  height: auto;
+}
+
+h3,ul, li {
+  padding:0.5em;
+  list-style: none;
+}
+
+#tribute-link {
+  text-align: center;
+  padding:0,5em;
+}
+ a {
+   padding: 0.7em;
+   text-decoration: none;
+   color:blue;
+ }
+
+ a:hover,a:active {
+   color:#000;
+ }
+
+ @media (max-width:700px) {
+ #img-div {
+   height: auto;
+ }
+#image {
+  margin-bottom: 1em;
+}
+#image-caption {
+  padding-bottom: 0,5em;
+}
+
+ }
+ }
